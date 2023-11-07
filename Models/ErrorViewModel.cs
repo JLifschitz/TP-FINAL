@@ -1,4 +1,4 @@
-namespace TP-FINAL.Models;
+namespace TPFINAL.Models;
 
 public class ErrorViewModel
 {

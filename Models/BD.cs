@@ -1,4 +1,4 @@
-namespace TP-FINAL.Models;
+namespace TPFINAL.Models;
 using System.Data.SqlClient;
 using Dapper;
 using System.Collections.Generic;
@@ -86,9 +86,9 @@ public static class BD
         return devolver;
     }
 
-     public static List<Artista> CargarComentarios()
+     public static List<Comentario> CargarComentarios()
     {
-        List<Artista> devolver = null;
+        List<Comentario> devolver = null;
         string sql = "Select * From Comentario";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
@@ -102,7 +102,7 @@ public static class BD
         string sql = "Insert into Comentario(artistaId, usuarioId, contenido) Values (@art, @userId, @cont)";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            db.Execute(sql, new{art = artistaId, userId=userId, cont=contenido});
+            db.Execute(sql, new{art = artistaId, userId=usuarioId, cont=contenido});
         }
     }
 }
