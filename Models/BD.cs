@@ -54,13 +54,4 @@ public static class BD
         }
         return devolver;
     }
-
-    public static void Megusta(int artistaId, int usuarioId)
-    {
-        string sql = "Insert into ArtistaxUsuario(artistaId, usuarioId) Values (@art, @user)";
-        using(SqlConnection db = new SqlConnection(_connectionString))
-        {
-            db.Execute(sql, new{art = artistaId, user = usuarioId});
-        }
-    }
 }

@@ -18,14 +18,44 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult Login(string nombre, string contraseña)
     {
+        if (BD.Login(nombre, contraseña) == null)
+        {
+            return View("Login");
+        }
+        else
+        {
+            ViewBag.usuarioId = BD.Login(nombre, contraseña);
+            return RedirectToAction("Artistas");
+        }
+    }
+
+    [HttpPost] public IActionResult Registro(Usuario user)
+    {
+        if(BD.BuscarUsuario(user.UserName) != "")
+        {
+            BD.Registrarse(user);
+            return RedirectToAction("Login_view");
+        }
+        else{return View("Registro",user);}
+    }
+
+    public IActionResult Artistas()
+    {
+        ViewBag.Artistas = BD.CargarArtistas();
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    public IActionResult DetallesArtista(int artistaId)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        ViewBag.artistaId = artistaId;
+        ViewBag.Canciones = BD.CargarCanciones(artistaId)
+        return view();
     }
+
+    public IActionResult Creditos()
+    {
+        return View();
+    }    
 }
