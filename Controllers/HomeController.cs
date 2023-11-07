@@ -26,17 +26,17 @@ public class HomeController : Controller
         }
         else
         {
-            ViewBag.usuarioId = BD.Login(nombre, contraseña);
+            ViewBag.user = BD.Login(nombre, contraseña);
             return RedirectToAction("Artistas");
         }
     }
 
     [HttpPost] public IActionResult Registro(Usuario user)
     {
-        if(BD.BuscarUsuario(user.UserName) != "")
+        if(BD.BuscarUsuario(user.nombre) != "")
         {
             BD.Registrarse(user);
-            return RedirectToAction("Login_view");
+            return RedirectToAction("Index");
         }
         else{return View("Registro",user);}
     }
@@ -50,7 +50,38 @@ public class HomeController : Controller
     public IActionResult DetallesArtista(int artistaId)
     {
         ViewBag.artistaId = artistaId;
-        ViewBag.Canciones = BD.CargarCanciones(artistaId)
+        ViewBag.Canciones = BD.CargarCanciones(artistaId);
+        ViewBag.Comentarios = BD.CargarComentarios(artistaId);
+        return view();
+    }
+
+    public IActionResult SeguirArtista(int artistaId, int usuarioId)
+    {
+        BD.SeguirArtista(artistaId, usuarioId);
+    }
+
+    public IActionResult DejarSeguirArtista(int artistaId, int usuarioId)
+    {
+        BD.DejarSeguirArtista(artistaId, usuarioId);
+    }
+
+    public IActionResult Gusta(int artistaId)
+    {
+        BD.Gusta(artistaId);
+    }
+
+    public IActionResult NoGusta(int artistaId)
+    {
+        BD.NoGusta(artistaId);
+    }
+
+    public IActionResult AñadirComentario(int artistaId, int usuarioId, string contenido)
+    {
+        BD.AñadirComentario(artistaId, usuarioId, contenido);
+    }
+
+    public IActionResult Perfil()
+    {
         return view();
     }
 

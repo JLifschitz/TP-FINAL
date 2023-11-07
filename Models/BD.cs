@@ -14,6 +14,7 @@ public static class BD
         {
             devolver = db.QueryFirstOrDefault<Usuario>(sql, new{pname = nombre, pcon = contraseña});
         }
+        
         return devolver;
     }
 
@@ -24,6 +25,17 @@ public static class BD
         {
             db.Execute(sql, new{use = user.nombre, con = user.contraseña, mail = user.gmail});
         }
+    }
+
+    public static List<Artista> CargarArtistas()
+    {
+        List<Artista> devolver = null;
+        string sql = "Select * From Artista";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            devolver = db.Query<Artista>(sql).ToList();
+        }
+        return devolver;
     }
 
     public static void SeguirArtista(int artistaId, int usuarioId)
@@ -44,14 +56,53 @@ public static class BD
         }
     }
     
-    public static List<Artista> CargarArtistas()
+
+    public static void Gusta(int artistaId)
     {
-        List<Artista> devolver = null;
-        string sql = "Select * From Artista";
+         string sql = "update artista set gusta=gusta+1 where artistaId=@art";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            devolver = db.Query<Artista>(sql).ToList();
+            db.Execute(sql, new{art = artistaId});
+        }
+    }
+
+    public static void NoGusta(int artistaId)
+    {
+        string sql = "update artista set noGusta=noGusta+1 where artistaId=@art";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            db.Execute(sql, new{art = artistaId});
+        }
+    }
+
+    public static List<Cancion> CargarCanciones(int artistaId)
+    {
+        List<Cancion> devolver = null;
+        string sql = "Select * From Cancion where artistaId = @art";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            devolver = db.Query<Cancion>(sql, new{art = artistaId}).ToList();
         }
         return devolver;
+    }
+
+     public static List<Artista> CargarComentarios()
+    {
+        List<Artista> devolver = null;
+        string sql = "Select * From Comentario";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            devolver = db.Query<Comentario>(sql).ToList();
+        }
+        return devolver;
+    }
+
+        public static void AñadirComentario(int artistaId, int usuarioId, string contenido)
+    {
+        string sql = "Insert into Comentario(artistaId, usuarioId, contenido) Values (@art, @userId, @cont)";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            db.Execute(sql, new{art = artistaId, userId=userId, cont=contenido});
+        }
     }
 }
