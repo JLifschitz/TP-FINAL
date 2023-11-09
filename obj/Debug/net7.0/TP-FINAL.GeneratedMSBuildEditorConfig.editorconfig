@@ -20,8 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[z:/Programacion 4to/TP-FINAL/Views/Home/DetalleArtistas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGxlQXJ0aXN0YXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [z:/Programacion 4to/TP-FINAL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/Programacion 4to/TP-FINAL/Views/Home/Perfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQZXJmaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/Programacion 4to/TP-FINAL/Views/Home/VerArtistas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJBcnRpc3Rhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [z:/Programacion 4to/TP-FINAL/Views/Shared/Error.cshtml]

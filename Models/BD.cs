@@ -1,7 +1,7 @@
 namespace TPFINAL.Models;
 using System.Data.SqlClient;
-using Dapper;
 using System.Collections.Generic;
+using Dapper;
 public static class BD
 {
     private static string _connectionString = @"Server=localhost; DataBase=TPFINAL; Trusted_Connection=True;";
@@ -86,7 +86,7 @@ public static class BD
         return devolver;
     }
 
-     public static List<Comentario> CargarComentarios()
+     public static List<Comentario> CargarComentarios(int artistaId)
     {
         List<Comentario> devolver = null;
         string sql = "Select * From Comentario";

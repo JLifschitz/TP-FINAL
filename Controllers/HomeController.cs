@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using TP-FINAL.Models;
+using TPFINAL.Models;
 
-namespace TP-FINAL.Controllers;
+namespace TPFINAL.Controllers;
 
 public class HomeController : Controller
 {
@@ -33,7 +33,7 @@ public class HomeController : Controller
 
     [HttpPost] public IActionResult Registro(Usuario user)
     {
-        if(BD.BuscarUsuario(user.nombre) != "")
+        if(user != null)
         {
             BD.Registrarse(user);
             return RedirectToAction("Index");
@@ -52,7 +52,7 @@ public class HomeController : Controller
         ViewBag.artistaId = artistaId;
         ViewBag.Canciones = BD.CargarCanciones(artistaId);
         ViewBag.Comentarios = BD.CargarComentarios(artistaId);
-        return view();
+        return View();
     }
 
     public IActionResult SeguirArtista(int artistaId, int usuarioId)
@@ -82,7 +82,7 @@ public class HomeController : Controller
 
     public IActionResult Perfil()
     {
-        return view();
+        return View();
     }
 
     public IActionResult Creditos()
