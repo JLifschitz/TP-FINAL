@@ -20,3 +20,39 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+nav
+{
+  position: sticky;
+  top:0;
+}
+
+nav ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4e1f44;
+}
+  
+nav li 
+{
+  float: left;
+  height: 3.3rem;
+  border-left: solid rgb(226, 132, 238) 2px;
+}
+  
+nav li a
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li:hover 
+{
+  background-color: #c116f5;
+}
