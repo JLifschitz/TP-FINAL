@@ -1,5 +1,6 @@
 namespace TPFINAL.Models;
 using System.Data.SqlClient;
+using System.Data;
 using System.Collections.Generic;
 using Dapper;
 public static class BD
@@ -9,106 +10,92 @@ public static class BD
     public static Usuario Login(string nombre, string contraseña)
     {
         Usuario devolver = null;
-        string sql = "Select * From Usuario Where nombre = @pname and Contraseña = @pcon";
+        string sql = "Log_in";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            devolver = db.QueryFirstOrDefault<Usuario>(sql, new{pname = nombre, pcon = contraseña});
-        }
-        
+            devolver = db.QueryFirstOrDefault<Usuario>(sql, new{pname = nombre, pcon = contraseña}, commandType: CommandType.StoredProcedure);
+        }   
         return devolver;
     }
 
     public static void Registrarse(Usuario user)
     {
-        string sql = "Insert into Usuario(nombre, contraseña, mail) Values (@use, @con, @mail)";
+        string sql = "Registrarse";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            db.Execute(sql, new{use = user.nombre, con = user.contraseña, mail = user.gmail});
+            db.Execute(sql, new{use = user.nombre, con = user.contraseña, mail = user.gmail}, commandType: CommandType.StoredProcedure);
         }
     }
 
     public static List<Artista> CargarArtistas()
     {
         List<Artista> devolver = null;
-        string sql = "Select * From Artista";
+        string sql = "CargarArtistas";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            devolver = db.Query<Artista>(sql).ToList();
+            devolver = db.Query<Artista>(sql, commandType: CommandType.StoredProcedure).ToList();
         }
         return devolver;
     }
 
-    public static void SeguirArtista(int artistaId, int usuarioId)
+    public static int SeguirArtista(int artistaId, int usuarioId)
     {
-        string sql = "Insert into ArtistaxUsuario(artistaId, usuarioId) Values (@art, @user)";
+        int devolver = 0;
+        string sql = "SeguirArtista";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            db.Execute(sql, new{art = artistaId, user = usuarioId});
+            devolver = db.QueryFirstOrDefault(sql, new{art = artistaId, user = usuarioId}, commandType: CommandType.StoredProcedure);
         }
+        return devolver;
     }
-
-    public static void DejarSeguirArtista(int artistaId, int usuarioId)
-    {
-        string sql = "Delete from ArtistaxUsuario Where artistaId = @art, usuarioId = @user";
-        using(SqlConnection db = new SqlConnection(_connectionString))
-        {
-            db.Execute(sql, new{art = artistaId, user = usuarioId});
-        }
-    }
-    
 
     public static void Gusta(int artistaId)
     {
-         string sql = "update artista set gusta=gusta+1 where artistaId=@art";
+        string sql = "Gusta";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            db.Execute(sql, new{art = artistaId});
+            db.Execute(sql, new{art = artistaId}, commandType: CommandType.StoredProcedure);
         }
     }
 
     public static void NoGusta(int artistaId)
     {
-        string sql = "update artista set noGusta=noGusta+1 where artistaId=@art";
+        string sql = "NoGusta";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            db.Execute(sql, new{art = artistaId});
+            db.Execute(sql, new{art = artistaId},commandType: CommandType.StoredProcedure);
         }
     }
 
     public static List<Cancion> CargarCanciones(int artistaId)
     {
         List<Cancion> devolver = null;
-        string sql = "Select * From Cancion where artistaId = @art";
+        string sql = "CargarCanciones";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            devolver = db.Query<Cancion>(sql, new{art = artistaId}).ToList();
+            devolver = db.Query<Cancion>(sql, new{art = artistaId}, commandType: CommandType.StoredProcedure).ToList();
         }
         return devolver;
     }
 
-     public static List<Comentario> CargarComentarios(int artistaId)
+    public static List<Comentario> CargarComentarios(int artistaId)
     {
         List<Comentario> devolver = null;
-        string sql = "Select * From Comentario";
+        string sql = "CargarComentarios";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            devolver = db.Query<Comentario>(sql).ToList();
+            devolver = db.Query<Comentario>(sql, new{art = artistaId}, commandType: CommandType.StoredProcedure).ToList();
         }
         return devolver;
     }
 
-        public static Comentario  AñadirComentario(int artistaId, int usuarioId, string contenido)
+    public static Comentario  AñadirComentario(int artistaId, int usuarioId, string contenido)
     {
-        string sql = "Insert into Comentario(artistaId, usuarioId, contenido) Values (@art, @userId, @cont)";
-        using(SqlConnection db = new SqlConnection(_connectionString))
-        {
-            db.Execute(sql, new{art = artistaId, userId=usuarioId, cont=contenido});
-        }
         Comentario devolver = null;
-        sql = "Select * From Comentario where comentarioId = ";
+        string sql = "AñadirComentario";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            devolver = db.Query<Artista>(sql).ToList();
+            db.QueryFirstOrDefault(sql, new{art = artistaId, userId=usuarioId, cont=contenido}, commandType: CommandType.StoredProcedure);
         }
         return devolver;
     }

@@ -17,10 +17,10 @@ BEGIN
 END
 GO
 
-CREATE PROCEDURE CargarArtistas
+alter PROCEDURE CargarArtistas
 AS
 BEGIN
-Select * From Artistaa
+Select * From Artista
 END
 GO
 
@@ -43,19 +43,19 @@ BEGIN
 END
 GO
 
-CREATE PROCEDURE Gusta
+alter PROCEDURE Gusta
 	@art int
 AS
 BEGIN
-	update Artistaa set gusta=gusta+1 where Artistaa.artistaId=@art
+	update Artista set gusta=gusta+1 where Artista.artistaId=@art
 END
 GO
 
-CREATE PROCEDURE NoGusta
+alter PROCEDURE NoGusta
 	@art int
 AS
 BEGIN
-	update Artistaa set noGusta=noGusta+1 where Artistaa.artistaId=@art
+	update Artista set noGusta=noGusta+1 where Artista.artistaId=@art
 END
 GO
 
