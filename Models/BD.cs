@@ -1,7 +1,7 @@
 namespace TPFINAL.Models;
 using System.Data.SqlClient;
-using Dapper;
 using System.Collections.Generic;
+using Dapper;
 public static class BD
 {
     private static string _connectionString = @"Server=localhost; DataBase=TPFINAL; Trusted_Connection=True;";
@@ -86,7 +86,7 @@ public static class BD
         return devolver;
     }
 
-     public static List<Comentario> CargarComentarios()
+     public static List<Comentario> CargarComentarios(int artistaId)
     {
         List<Comentario> devolver = null;
         string sql = "Select * From Comentario";
@@ -97,7 +97,7 @@ public static class BD
         return devolver;
     }
 
-        public static void AñadirComentario(int artistaId, int usuarioId, string contenido)
+        public static Comentario  AñadirComentario(int artistaId, int usuarioId, string contenido)
     {
         string sql = "Insert into Comentario(artistaId, usuarioId, contenido) Values (@art, @userId, @cont)";
         using(SqlConnection db = new SqlConnection(_connectionString))
@@ -105,7 +105,7 @@ public static class BD
             db.Execute(sql, new{art = artistaId, userId=usuarioId, cont=contenido});
         }
         Comentario devolver = null;
-        string sql = "Select * From Comentario where comentarioId = ";
+        sql = "Select * From Comentario where comentarioId = ";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
             devolver = db.Query<Artista>(sql).ToList();
