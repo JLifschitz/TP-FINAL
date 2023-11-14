@@ -3,7 +3,7 @@ CREATE PROCEDURE Log_in
 	@pcon varchar(999)
 AS
 BEGIN
-	Select * From Usuario Where nombre = @pname and Contraseña = @pcon;
+	Select * From Usuario Where nombre = @pname and ContraseÃ±a = @pcon;
 END
 GO
 
@@ -13,7 +13,7 @@ CREATE PROCEDURE Registrarse
 	@mail varchar(999)
 AS
 BEGIN
-	Insert into Usuario(nombre, contraseña, gmail) Values (@use, @con, @mail)
+	Insert into Usuario(nombre, contraseÃ±a, gmail) Values (@use, @con, @mail)
 END
 GO
 
@@ -74,7 +74,7 @@ Select * From Comentario
 END
 GO
 
-CREATE PROCEDURE AñadirComentario
+CREATE PROCEDURE AÃ±adirComentario
 	@art int,
 	@userId int,
 	@cont nchar(150)
@@ -83,8 +83,3 @@ BEGIN
 	Insert into Comentario(artistaId, usuarioId, contenido) Values (@art, @userId, @cont)
 END
 GO
-
-
-
-
-execute Log_in JulianLifsch, 84950
