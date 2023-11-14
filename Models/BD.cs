@@ -104,5 +104,12 @@ public static class BD
         {
             db.Execute(sql, new{art = artistaId, userId=usuarioId, cont=contenido});
         }
+        Comentario devolver = null;
+        string sql = "Select * From Comentario where comentarioId = ";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            devolver = db.Query<Artista>(sql).ToList();
+        }
+        return devolver;
     }
 }

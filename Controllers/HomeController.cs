@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using TP-FINAL.Models;
+using TPFINAL.Models;
 
-namespace TP-FINAL.Controllers;
+namespace TPFINAL.Controllers;
 
 public class HomeController : Controller
 {
@@ -55,29 +55,33 @@ public class HomeController : Controller
         return view();
     }
 
-    public IActionResult SeguirArtista(int artistaId, int usuarioId)
+    public int SeguirArtista(int artistaId, int usuarioId)
     {
         BD.SeguirArtista(artistaId, usuarioId);
+        return artistaId;
     }
 
-    public IActionResult DejarSeguirArtista(int artistaId, int usuarioId)
+    public int DejarSeguirArtista(int artistaId, int usuarioId)
     {
         BD.DejarSeguirArtista(artistaId, usuarioId);
+        return artistaId;
     }
 
-    public IActionResult Gusta(int artistaId)
+    public int Gusta(int artistaId)
     {
         BD.Gusta(artistaId);
+        return artistaId;
     }
 
-    public IActionResult NoGusta(int artistaId)
+    public int NoGusta(int artistaId)
     {
         BD.NoGusta(artistaId);
+        return artistaId;
     }
 
-    public IActionResult AñadirComentario(int artistaId, int usuarioId, string contenido)
+    public Comentario AñadirComentario(int artistaId, int usuarioId, string contenido)
     {
-        BD.AñadirComentario(artistaId, usuarioId, contenido);
+        return BD.AñadirComentario(artistaId, usuarioId, contenido);
     }
 
     public IActionResult Perfil()
