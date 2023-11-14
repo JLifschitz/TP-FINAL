@@ -97,12 +97,19 @@ public static class BD
         return devolver;
     }
 
-        public static void AñadirComentario(int artistaId, int usuarioId, string contenido)
+        public static Comentario  AñadirComentario(int artistaId, int usuarioId, string contenido)
     {
         string sql = "Insert into Comentario(artistaId, usuarioId, contenido) Values (@art, @userId, @cont)";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
             db.Execute(sql, new{art = artistaId, userId=usuarioId, cont=contenido});
         }
+        Comentario devolver = null;
+        sql = "Select * From Comentario where comentarioId = ";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            devolver = db.Query<Artista>(sql).ToList();
+        }
+        return devolver;
     }
 }

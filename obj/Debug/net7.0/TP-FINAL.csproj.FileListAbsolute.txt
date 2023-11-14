@@ -6,3 +6,11 @@ Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\TP-FINAL.csproj.CoreCompileInputs.
 Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\TP-FINAL.MvcApplicationPartsAssemblyInfo.cache
 Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\TP-FINAL.RazorAssemblyInfo.cache
 Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\TP-FINAL.RazorAssemblyInfo.cs
+Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\TP-FINAL.csproj.AssemblyReference.cache
+Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\TP-FINAL.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\TP-FINAL.AssemblyInfoInputs.cache
+Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\TP-FINAL.AssemblyInfo.cs
+Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\TP-FINAL.csproj.CoreCompileInputs.cache
+Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\TP-FINAL.MvcApplicationPartsAssemblyInfo.cache
+Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\TP-FINAL.RazorAssemblyInfo.cache
+Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\TP-FINAL.RazorAssemblyInfo.cs
