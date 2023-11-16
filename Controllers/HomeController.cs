@@ -57,14 +57,7 @@ public class HomeController : Controller
 
     public int SeguirArtista(int artistaId, int usuarioId)
     {
-        BD.SeguirArtista(artistaId, usuarioId);
-        return artistaId;
-    }
-
-    public int DejarSeguirArtista(int artistaId, int usuarioId)
-    {
-        BD.DejarSeguirArtista(artistaId, usuarioId);
-        return artistaId;
+        return BD.SeguirArtista(artistaId, usuarioId);
     }
 
     public int Gusta(int artistaId)

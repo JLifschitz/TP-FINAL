@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\TP-FINAL.bundle.scp.css"
     },
     {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\DB\\TPFINAL.sql",
+      "PackagePath": "staticwebassets\\DB\\TPFINAL.sql"
+    },
+    {
       "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\DB\\TPFINALdb.sql",
       "PackagePath": "staticwebassets\\DB\\TPFINALdb.sql"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\DB\\procedurestpfinal.sql",
+      "PackagePath": "staticwebassets\\DB\\procedurestpfinal.sql"
     },
     {
       "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\css\\site.css",

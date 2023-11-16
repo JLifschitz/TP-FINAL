@@ -17,8 +17,14 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
+body
+{
+  background-color: rgb(0, 0, 0);
+  margin: 20px 60px 0px 20px;
+  text-align: center;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav
@@ -38,7 +44,7 @@ nav ul
   
 nav li 
 {
-  float: left;
+  float: right;
   height: 3.3rem;
   border-left: solid rgb(226, 132, 238) 2px;
 }
@@ -55,4 +61,24 @@ nav li a
 nav li:hover 
 {
   background-color: #c116f5;
+}
+
+button
+{
+  background-color: #f516bd;
+  height: 7rem;
+  width: 12rem;
+  font-size: large;
+  color: white;
+
+}
+
+button:hover
+{
+  background-color: #ee16f5af;
+}
+
+h1
+{
+color: white;
 }

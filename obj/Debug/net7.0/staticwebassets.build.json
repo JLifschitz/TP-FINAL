@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "un0+gcbf+htvyBKW7vqPtPr8h3uABsZqQM10OSGhjKg=",
+  "Hash": "YiMHzXIiAIf2jTRTAcOOPrs8Ot5uUp70Cjirlglotx0=",
   "Source": "TP-FINAL",
   "BasePath": "_content/TP-FINAL",
   "Mode": "Default",
@@ -66,6 +66,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\DB\\procedurestpfinal.sql",
+      "SourceId": "TP-FINAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\",
+      "BasePath": "_content/TP-FINAL",
+      "RelativePath": "DB/procedurestpfinal.sql",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DB\\procedurestpfinal.sql"
+    },
+    {
+      "Identity": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\DB\\TPFINAL.sql",
+      "SourceId": "TP-FINAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\",
+      "BasePath": "_content/TP-FINAL",
+      "RelativePath": "DB/TPFINAL.sql",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DB\\TPFINAL.sql"
     },
     {
       "Identity": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\DB\\TPFINALdb.sql",
