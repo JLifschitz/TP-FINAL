@@ -27,6 +27,17 @@ public static class BD
         }
     }
 
+    public static Usuario BuscarUsuario(int usuarioId)
+    {
+        Usuario devolver = null;
+        string sql = "BuscarUsuario";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            devolver = db.QueryFirstOrDefault<Usuario>(sql, new{id = usuarioId}, commandType: CommandType.StoredProcedure);
+        }   
+        return devolver;
+    }
+
     public static List<Artista> CargarArtistas()
     {
         List<Artista> devolver = null;
