@@ -33,7 +33,7 @@ public static class BD
         string sql = "BuscarUsuario";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            devolver = db.QueryFirstOrDefault<Usuario>(sql, new{pname = nombre, pcon = contraseña}, commandType: CommandType.StoredProcedure);
+            devolver = db.QueryFirstOrDefault<Usuario>(sql, new{id = usuarioId}, commandType: CommandType.StoredProcedure);
         }   
         return devolver;
     }
