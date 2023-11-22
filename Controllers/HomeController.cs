@@ -77,6 +77,11 @@ public class HomeController : Controller
         return BD.AñadirComentario(artistaId, usuarioId, contenido);
     }
 
+    public Usuario BuscarUsuario(int usuarioId)
+    {
+        return BD.BuscarUsuario(usuarioId);
+    }
+
     public IActionResult Perfil()
     {
         return View();

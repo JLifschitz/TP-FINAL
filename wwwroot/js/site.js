@@ -1,4 +1,27 @@
-﻿function SeguirArtista(artistaId, usuarioId)
+﻿function Buscarnombre(usuarioId)
+{
+    $.ajax
+    (
+        {
+            type: 'POST',
+            dataType: 'JSON',
+            url: '/Home/BuscarUsuario',
+            data: {usuarioId: usuarioId},
+            success:
+            function(response)
+            {
+                return response.nombre
+            },
+            error:
+            function(xhr, status)
+            {
+                alert('Ocurrio un problema');
+            }
+        }
+    );
+}
+
+function SeguirArtista(artistaId, usuarioId)
 {
     $.ajax
     (
@@ -85,7 +108,8 @@ function ValidarComentario()
                     success:
                         function(response)
                         {
-                            $("#nogusta").html(+ 1);
+                            $("#name").html(Buscarnombre(response.usuarioId));
+                            $("#cont").html(response.contenido);
                         },
                     error:
                         function(xhr, status)
