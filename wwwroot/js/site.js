@@ -110,6 +110,7 @@ function ValidarComentario()
                         {
                             $("#name").html(Buscarnombre(response.usuarioId));
                             $("#cont").html(response.contenido);
+                            $("#nuevo").style.display = "block";
                         },
                     error:
                         function(xhr, status)
@@ -121,4 +122,45 @@ function ValidarComentario()
         }
     }
     else{alert('no se puede añadir un comentario vacio')}
+}
+
+function ValidarContraseña()
+{  
+    let leng = false;
+    let spec = false;
+    let upp = false;
+    let password = document.getElementById("c1")
+    var format = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
+
+    //Checking length
+    if(password.value.length >= 8){leng = true;}
+
+    //Checking for special characters
+    for (let i = 0; i < password.value.length; i++)
+    {
+        const element = password.value[i];
+        if(format.test(element)){spec = true;}
+    }
+
+    //Checking for an uppercase
+    for (let i = 0; i < password.value.length; i++) {
+        const element = password.value[i];
+        let txt = element;
+        if (element === txt.toUpperCase()) {upp = true;}
+    }
+
+    //Validate all 3
+    if(!leng)
+    {
+        PasswordAlert.textContent = "La contraseña debe tener al menos 8 caracteres.";
+    }
+    if(!spec)
+    {
+        PasswordAlert.textContent = "La contraseña debe tener al menos 1 caracter especial.";
+    }
+    if(!upp)
+    {
+        PasswordAlert.textContent = "La contraseña debe tener al menos 1 letra mayuscula.";
+    }
+    if(spec && leng && upp){PasswordAlert.textContent = "";}
 }
