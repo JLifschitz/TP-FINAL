@@ -31,6 +31,11 @@ public class HomeController : Controller
         }
     }
 
+    public IActionResult Registrarse()
+    {
+
+        return View("Registro");
+    }
     [HttpPost] public IActionResult Registro(Usuario user)
     {
         if(user != null)
