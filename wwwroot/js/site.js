@@ -127,23 +127,14 @@ function ValidarComentario()
 function ValidarContraseña()
 {  
     let leng = false;
-    let spec = false;
     let upp = false;
-    let password = document.getElementById("c1")
-    var format = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
+    let password = document.getElementById("password")
 
-    //Checking length
-    if(password.value.length >= 8){leng = true;}
-
-    //Checking for special characters
-    for (let i = 0; i < password.value.length; i++)
-    {
-        const element = password.value[i];
-        if(format.test(element)){spec = true;}
-    }
+    if(password.value.length >= 6){leng = true;}
 
     //Checking for an uppercase
-    for (let i = 0; i < password.value.length; i++) {
+    for (let i = 0; i < password.value.length; i++)
+    {
         const element = password.value[i];
         let txt = element;
         if (element === txt.toUpperCase()) {upp = true;}
@@ -152,11 +143,7 @@ function ValidarContraseña()
     //Validate all 3
     if(!leng)
     {
-        PasswordAlert.textContent = "La contraseña debe tener al menos 8 caracteres.";
-    }
-    if(!spec)
-    {
-        PasswordAlert.textContent = "La contraseña debe tener al menos 1 caracter especial.";
+        PasswordAlert.textContent = "La contraseña debe tener al menos 6 caracteres.";
     }
     if(!upp)
     {

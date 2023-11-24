@@ -17,6 +17,58 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Artistas\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\billyjoel.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\billyjoel.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\charlygarcia.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\charlygarcia.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\fitopaez.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\fitopaez.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\imaginedragons.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\imaginedragons.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\lopibitos.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\lopibitos.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\loshelicopteros.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\loshelicopteros.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\notevagustar.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\notevagustar.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\queen.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\queen.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\thekinks.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\thekinks.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\tini.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\tini.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\virus.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\virus.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Artistas\\wos.jpg",
+      "PackagePath": "staticwebassets\\img\\Artistas\\wos.jpg"
+    },
+    {
       "Id": "Z:\\Programacion 4to\\TP-FINAL\\wwwroot\\img\\Thumbs.db",
       "PackagePath": "staticwebassets\\img\\Thumbs.db"
     },
