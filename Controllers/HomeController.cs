@@ -27,7 +27,7 @@ public class HomeController : Controller
         else
         {
             ViewBag.user = BD.Login(nombre, contraseña);
-            return RedirectToAction("Artistas");
+            return RedirectToAction("VerArtistas");
         }
     }
 
@@ -36,6 +36,7 @@ public class HomeController : Controller
 
         return View("Registro");
     }
+
     [HttpPost] public IActionResult Registro(Usuario user)
     {
         if(user != null)
@@ -46,7 +47,7 @@ public class HomeController : Controller
         else{return View("Registro",user);}
     }
 
-    public IActionResult Artistas()
+    public IActionResult VerArtistas()
     {
         ViewBag.Artistas = BD.CargarArtistas();
         return View();
