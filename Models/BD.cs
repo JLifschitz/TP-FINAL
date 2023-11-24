@@ -60,6 +60,17 @@ public static class BD
         return devolver;
     }
 
+    public static List<Artista> CargarSeguidos(int usuarioId)
+    {
+        List<Artista> devolver = null;
+        string sql = "CargarSeguidos";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            devolver = db.Query<Artista>(sql, new{id = usuarioId}, commandType: CommandType.StoredProcedure).ToList();
+        }
+        return devolver;
+    }
+
     public static void Gusta(int artistaId)
     {
         string sql = "Gusta";
