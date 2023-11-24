@@ -53,11 +53,11 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult DetallesArtista(int artistaId)
+    public IActionResult DetallesArtista(Artista artista)
     {
-        ViewBag.artistaId = artistaId;
-        ViewBag.Canciones = BD.CargarCanciones(artistaId);
-        ViewBag.Comentarios = BD.CargarComentarios(artistaId);
+        ViewBag.artista = artista;
+        ViewBag.Canciones = BD.CargarCanciones(artista.artistaId);
+        ViewBag.Comentarios = BD.CargarComentarios(artista.artistaId);
         return View();
     }
 

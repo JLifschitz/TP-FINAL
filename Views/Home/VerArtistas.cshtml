@@ -1,19 +1,23 @@
  @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Ver Artistas";
 }
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <link rel="Stylesheet" src="site.css">
-        <title>VerArtistas</title>
+        <title>VerArtistas</title> 
     </head>
     <body>
-    @foreach (Artista item in ViewBag.Artistas)
-    {
-        <h1>Nombre:  @item.nombre</h1>
-        <img src="'/img/Artistas/'@item.foto">
-        <h1>Likes: @item.gusta</h1>
-        <h1>Dislikes: @item.noGusta</h1> 
-    }
+        @foreach (Artista item in ViewBag.Artistas)
+        {
+        <div class ="MostrarArtistas">
+            <div class ="Artistas">
+                <h1>Nombre:  @item.nombre</h1>
+                <img src="/img/Artistas/@item.foto">
+                <hi>Likes: @item.gusta</hi>
+                <hi>Dislikes: @item.noGusta</hi> 
+            </div>
+        </div>
+        }
     </body>
 </html>
