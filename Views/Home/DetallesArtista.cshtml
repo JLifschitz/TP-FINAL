@@ -8,10 +8,10 @@
         <link rel="Stylesheet" src="site.css">
     </head>
     <body>
-        <img src="@ViewBag.Artista.foto">
+        <img src="/img/Artistas/@ViewBag.Artista.foto">
         <a href='@Url.Action("Login")'><button>Seguir</button></a>
-        <h1>Nombre: @ViewBag.Artista.nombre</h1>
-        <h1>Descripcion: @ViewBag.Artista.descripcion</h1>
+        <h1>Nombre: @ViewBag.artista.nombre</h1>
+        <h1>Descripcion: @ViewBag.artista.descripcion</h1>
         <br>  
         <h1>Comentarios:</h1>
         <div class="listado">
@@ -22,7 +22,7 @@
         </div>
         <h1>Top canciones</h1>
         <div class="listado">
-            @foreach (Cancion item in ViewBag.Cancion)
+            @foreach (Cancion item in ViewBag.Canciones)
             {
                 <h1>@item.nombre</h1>
                 <h1>@item.fechaestreno</h1>
