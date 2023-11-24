@@ -8,11 +8,12 @@
         <title>VerArtistas</title>
     </head>
     <body>
-        @foreach (Artista item in ViewBag.Artista)
-{
-    <h1>Nombre:  @item.nombre</h1>
-    <img src="@item.foto">
-    <hi>Likes: @item.gusta</hi>
-     <hi>Dislikes: @item.noGusta</hi> 
-}
+    @foreach (Artista item in ViewBag.Artistas)
+    {
+        <h1>Nombre:  @item.nombre</h1>
+        <img src="@item.foto">
+        <h1>Likes: @item.gusta</h1>
+        <h1>Dislikes: @item.noGusta</h1> 
+    }
     </body>
+</html>

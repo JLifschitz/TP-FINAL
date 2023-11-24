@@ -15,23 +15,18 @@
         <br>  
         <h1>Comentarios:</h1>
         <div class="listado">
-                @foreach (Comentario item in ViewBag.Comentarios)
-                {
-                   <h1>@item.contenido</h1>
-                }
-            </div>
-
+            @foreach (Comentario item in ViewBag.Comentarios)
+            {
+                <h1>@item.contenido</h1>
+            }
+        </div>
         <h1>Top canciones</h1>
-<div class="listado">
-                @foreach (Cancion item in ViewBag.Cancion)
-                {
-                    <h1>@item.nombre</h1>
-                    <h1>@item.fechaestreno</h1>
-                }
-            </div>
-
-    
-       
-      
+        <div class="listado">
+            @foreach (Cancion item in ViewBag.Cancion)
+            {
+                <h1>@item.nombre</h1>
+                <h1>@item.fechaestreno</h1>
+            }
+        </div>  
     </body>
 </html>

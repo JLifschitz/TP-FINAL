@@ -1,14 +1,23 @@
 @{
     ViewData["Title"] = "Login";
 }
-<h1>Login</h1>
-<h3>¡Bienvenido, inicia sesion!</h3>
-<form class="center" method="post" action='@Url.Action("Login")'>
-    <label for="nombre">Nombre de Usuario</label>
-    <input type="text" name="nombre" placeholder="Usuario" required></input>
-    
-    <label for="contraseña">Contraseña</label>
-    <input type="password" name="contraseña" placeholder="Contraseña" required></input>
-    
-    <input type="submit">
-</form>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Index</title>
+        <link rel="Stylesheet" src="site.css">
+    </head>
+    <body>
+        <h1>Login</h1>
+        <h3>¡Bienvenido, inicia sesion!</h3>
+        <form class="center" method="post" action='@Url.Action("Login")'>
+            <label for="nombre">Nombre de Usuario</label>
+            <input type="text" name="nombre" placeholder="Usuario" required></input>
+            
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" placeholder="Contraseña" required></input>
+            
+            <input type="submit">
+        </form>
+    </body>
+</html>
