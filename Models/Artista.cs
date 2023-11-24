@@ -8,5 +8,5 @@ public class Artista
     public string genero {get;set;}
     public int gusta {get;set;}
     public int noGusta {get;set;}
-    public string foto {get;set;}
+    public string foto {get;set;} 
 }
