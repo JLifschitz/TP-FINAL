@@ -11,7 +11,7 @@
     @foreach (Artista item in ViewBag.Artistas)
     {
         <h1>Nombre:  @item.nombre</h1>
-        <img src="@item.foto">
+        <img src="'/img/Artistas/'@item.foto">
         <h1>Likes: @item.gusta</h1>
         <h1>Dislikes: @item.noGusta</h1> 
     }
