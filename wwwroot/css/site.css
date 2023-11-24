@@ -82,3 +82,21 @@ h1
 {
 color: white;
 }
+
+.MostrarArtistas
+{
+    width: 50rem;
+}
+
+.Artistas
+{    
+    float:left;
+    margin-right: 20px;
+    width: auto;
+}
+
+.Artistas img
+{
+    height:15rem;
+    width:15rem;
+}

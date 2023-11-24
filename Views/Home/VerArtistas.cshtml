@@ -5,14 +5,18 @@
 <html lang="en">
     <head>
         <link rel="Stylesheet" src="site.css">
-        <title>VerArtistas</title>
+        <title>VerArtistas</title> 
     </head>
     <body>
         @foreach (Artista item in ViewBag.Artista)
 {
+    <div class ="MostrarArtistas">
+    <div class ="Artistas">
     <h1>Nombre:  @item.nombre</h1>
     <img src="@item.foto">
     <hi>Likes: @item.gusta</hi>
      <hi>Dislikes: @item.noGusta</hi> 
+   </div>
+</div>
 }
     </body>
