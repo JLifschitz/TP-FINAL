@@ -1,5 +1,5 @@
  @{
-    ViewData["Title"] = "Home";
+    ViewData["Title"] = "Ver Artistas";
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -8,12 +8,12 @@
         <title>VerArtistas</title> 
     </head>
     <body>
-        @foreach (Artista item in ViewBag.Artista)
+        @foreach (Artista item in ViewBag.Artistas)
 {
     <div class ="MostrarArtistas">
     <div class ="Artistas">
-    <h1>Nombre:  @item.nombre</h1>
-    <img src="@item.foto">
+    <h1>@item.nombre</h1>
+    <img src="/Img/Artistas/@item.foto">
     <hi>Likes: @item.gusta</hi>
      <hi>Dislikes: @item.noGusta</hi> 
    </div>
