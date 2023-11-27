@@ -106,3 +106,30 @@ color: white;
   height:20rem;
   width:20rem;
 }
+
+.datos
+{
+  margin-left:50rem
+}
+
+.canciones
+{
+  margin-left:50rem
+}
+
+.DetallesArtista
+{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.detalles
+{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  width: 50%;
+}
+
