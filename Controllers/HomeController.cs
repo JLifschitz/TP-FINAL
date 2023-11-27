@@ -88,8 +88,9 @@ public class HomeController : Controller
         return BD.BuscarUsuario(usuarioId);
     }
 
-    public IActionResult Perfil()
-    {
+    public IActionResult Perfil(int usuarioId)
+    { 
+        ViewBag.seguidos = BD.CargarSeguidos(usuarioId);
         return View();
     }
 
