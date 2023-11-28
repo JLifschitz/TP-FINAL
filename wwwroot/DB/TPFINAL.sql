@@ -176,7 +176,11 @@ INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta],
 INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (13, N'Berduras', N'banda de verduras', N'rock, inventada', 3, 18, N'berduras.jpg')
 INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (14, N'Michael Jackson', N'cantante, compositor, productor y bailarín estadounidense', N'funk', 163, 2, N'michaeljackson.jpg')
 INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (15, N'Gramatik', N'productor de música electrónica esloveno, residente en Nueva York', N'hip hop, electrónica, trip hop', 26, 10, N'gramatik.jpg')
-INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (16, N'Sly Stone', N'Es una banda fundamental para entender el nacimiento y desarrollo del funk', N'rock, soul psicodelico, funk', 26, 10, N'slystone.jpg')
+INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (16, N'Sly Stone', N'Un artista que junto con sus hermanos logro desarrollar un nuevo tipo de musica', N'rock, soul psicodelico, funk', 26, 10, N'slystone.jpg')
+INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (17, N'Vet Stone', N'Cantante de Soul, Hermana de Sly Stone, parte de la banda Sly & the family Stone, y tambien Little Sister', N' soul psicodelico', 16, 2, N'vetstone.jpg')
+INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (18, N'Marcus Miller', N'Músico, compositor y productor de jazz. Se destaca como bajista.', N'funk, groove, soul', 5000, 500, N'marcusmiller.jpg')
+INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (19, N'The Internet', N'Banda estadounidense de Los Ángeles, California. Su música es considerada como una mezcla de R&B, hip hop, jazz, funk y música dance electrónica.', N'hip hop, jazz, electrónica, funk', 265256, 10546, N'slystone.jpg')
+
 
 	 
 	 
