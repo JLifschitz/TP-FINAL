@@ -57,7 +57,9 @@ function Gusta(artistaId)
             success:
                 function(response)
                 {
-                    $("#gusta").html(+ 1);
+                    let cant = parseInt($("#gusta_" + response).html())+1;
+                    console.log(cant);
+                    $("#gusta_" + response).html(cant);
                 },
             error:
                 function(xhr, status)
@@ -80,7 +82,8 @@ function NoGusta(artistaId)
             success:
                 function(response)
                 {
-                    $("#nogusta").html(+ 1);
+                    let cant = parseInt($("#nogusta_" + response).html())+1;
+                    $("#nogusta_" + response).html(cant);
                 },
             error:
                 function(xhr, status)
@@ -91,9 +94,10 @@ function NoGusta(artistaId)
     );
 }
 
-function ValidarComentario()
+function ValidarComentario(artistaId, usuarioId)
 {
-    let leng = document.getElementById("cont").length;
+    let contenido = document.getElementById("#cont").html;
+    let leng = document.getElementById("#cont").html.length;
     if(leng > 0)
     {
         function AñadirComentario(artistaId, usuarioId, contenido)
@@ -109,7 +113,7 @@ function ValidarComentario()
                         function(response)
                         {
                             $("#name").html(Buscarnombre(response.usuarioId));
-                            $("#cont").html(response.contenido);
+                            $("#contenido").html(response.contenido);
                             $("#nuevo").style.display = "block";
                         },
                     error:

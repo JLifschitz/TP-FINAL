@@ -15,11 +15,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        ViewBag.mostrarNav = false;
         return View();
     }
 
     public IActionResult Login(string nombre, string contraseña)
     {
+        ViewBag.mostrarNav = false;
         if (BD.Login(nombre, contraseña) == null)
         {
             return View("Login");
@@ -33,7 +35,7 @@ public class HomeController : Controller
 
     public IActionResult Registrarse()
     {
-
+        ViewBag.mostrarNav = false;
         return View("Registro");
     }
 

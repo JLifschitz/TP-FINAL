@@ -9,29 +9,36 @@
     </head>
     <body>
         <div class="DetallesArtista">
-            <img style="height: 25rem; width: 25rem;" src="/img/Artistas/@ViewBag.Artista.foto">
+            <img style="height: 25rem; width: 25rem; margin-left:10rem;" src="/img/Artistas/@ViewBag.Artista.foto">
             <div class="detalles">
                 <div class="datos">
                     <h1>Nombre: @ViewBag.artista.nombre</h1>
                     <h1>Descripcion: @ViewBag.artista.descripcion</h1> 
                 </div>
-                <h1>Top canciones</h1>
                 <div class="canciones">
+                <h1>Top canciones:</h1>
                     @foreach (Cancion item in ViewBag.Canciones)
                     {
-                        <h1>@item.nombre</h1>
-                        <h1>@item.fechaestreno</h1>
+                        <div class="cancion">
+                            <h1>@item.nombre</h1>
+                            <h1>@item.fechaestreno</h1>
+                        </div>
                     }
                 </div>
             </div>
         </div>
-        <input class="comentario" placeholder="Añadir comentario">
+        <input class="comentario" placeholder="Añadir comentario" name="contenido" id="cont">
+        <button onclick="ValidarComentario(@ViewBag.artista.artistaId, @BD.user.usuarioId)">Subir</button>
         <br>  
         <h1>Comentarios:</h1>
         <div class="comentarios">
+            <div id="nuevo">
+                <h1 id="name"></h1>
+                <h1 id="contenido"></h1>
+            </div>
             @foreach (Comentario item in ViewBag.Comentarios)
             {
-                <h1>@item.contenido</h1>
+                <h1></h1>
             }
         </div>
     </body>
