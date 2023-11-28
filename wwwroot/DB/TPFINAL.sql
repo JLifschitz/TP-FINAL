@@ -279,9 +279,9 @@ SET IDENTITY_INSERT [dbo].[Comentario] OFF
 GO
 SET IDENTITY_INSERT [dbo].[Usuario] ON 
 
-INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (1, N'JulianLifsch                                      ', N'84950', N'jlifschits@gmail.com')
-INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (2, N'LucaList                                          ', N'odlfigh515', N'listin@gmail.com')
-INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (3, N'JuliLav                                           ', N'POlofJd1', N'jlav@gmail.com')
+INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (1, N'JulianLifsch                                      ', N'12350', N'jlifschits@gmail.com')
+INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (2, N'LucaList                                          ', N'o55545', N'listin@gmail.com')
+INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (3, N'JuliLav                                           ', N'nuncausocontrasena1', N'jlav@gmail.com')
 INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (4, N'tobigran                                          ', N'MLKOOMK', N'tgranovski@gmail.com')
 INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (5, N'eduardohose', N'12345', N'ehose@gmail.com')
 SET IDENTITY_INSERT [dbo].[Usuario] OFF
