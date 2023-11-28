@@ -175,7 +175,10 @@ INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta],
 INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (12, N'Virus', N'asa', N'asd', 1, 1, N'virus.jpg')
 INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (13, N'Berduras', N'banda de verduras', N'rock, inventada', 3, 18, N'berduras.jpg')
 INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (14, N'Michael Jackson', N'cantante, compositor, productor y bailarín estadounidense', N'funk', 163, 2, N'michaeljackson.jpg')
+INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (15, N'Gramatik', N'productor de música electrónica esloveno, residente en Nueva York', N'hip hop, electrónica, trip hop', 26, 10, N'gramatik.jpg')
+INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (16, N'Sly Stone', N'Es una banda fundamental para entender el nacimiento y desarrollo del funk', N'rock, soul psicodelico, funk', 26, 10, N'slystone.jpg')
 
+	 
 	 
 SET IDENTITY_INSERT [dbo].[Artista] OFF
 GO
