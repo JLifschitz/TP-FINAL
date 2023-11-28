@@ -6,7 +6,7 @@ using Dapper;
 public static class BD
 {
     private static string _connectionString = @"Server=localhost; DataBase=TPFINAL; Trusted_Connection=True;";
-    
+    public static Usuario user;
     public static Usuario Login(string nombre, string contraseña)
     {
         Usuario devolver = null;
@@ -38,13 +38,13 @@ public static class BD
         return devolver;
     }
 
-    public static List<Artista> CargarArtistas()
+    public static List<Artista> CargarArtistas(string buscar)
     {
         List<Artista> devolver = null;
         string sql = "CargarArtistas";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            devolver = db.Query<Artista>(sql, commandType: CommandType.StoredProcedure).ToList();
+            devolver = db.Query<Artista>(sql, new{buscar = buscar}, commandType: CommandType.StoredProcedure).ToList();
         }
         return devolver;
     }

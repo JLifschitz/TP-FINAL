@@ -26,8 +26,8 @@ public class HomeController : Controller
         }
         else
         {
-            ViewBag.user = BD.Login(nombre, contraseña);
-            return RedirectToAction("VerArtistas");
+            BD.user = BD.Login(nombre, contraseña);
+            return RedirectToAction("VerArtistas", new {buscar=""});
         }
     }
 
@@ -47,9 +47,9 @@ public class HomeController : Controller
         else{return View("Registro",user);}
     }
 
-    public IActionResult VerArtistas()
+    public IActionResult VerArtistas(string buscar)
     {
-        ViewBag.Artistas = BD.CargarArtistas();
+        ViewBag.Artistas = BD.CargarArtistas(buscar);
         return View();
     }
 
@@ -88,9 +88,9 @@ public class HomeController : Controller
         return BD.BuscarUsuario(usuarioId);
     }
 
-    public IActionResult Perfil(int usuarioId)
+    public IActionResult Perfil()
     { 
-        ViewBag.seguidos = BD.CargarSeguidos(usuarioId);
+        ViewBag.seguidos = BD.CargarSeguidos(BD.user.usuarioId);
         return View();
     }
 
