@@ -174,7 +174,7 @@ INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta],
 INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (11, N'Los Helicopteros', N'banda argentina de rock integrante del movimiento de la música divertida', N'rock, diversion', 1, 0, N'loshelicopteros.jpg')
 INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (12, N'Virus', N'asa', N'asd', 1, 1, N'virus.jpg')
 INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (13, N'Berduras', N'banda de verduras', N'rock, inventada', 3, 18, N'berduras.jpg')
-INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (12, N'Michael Jackson', N'cantante, compositor, productor y bailarín estadounidense', N'funk', 163, 2, N'michaeljackson.jpg')
+INSERT [dbo].[Artista] ([artistaId], [nombre], [descripcion], [genero], [gusta], [noGusta], [foto]) VALUES (14, N'Michael Jackson', N'cantante, compositor, productor y bailarín estadounidense', N'funk', 163, 2, N'michaeljackson.jpg')
 
 	 
 SET IDENTITY_INSERT [dbo].[Artista] OFF
