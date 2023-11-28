@@ -57,7 +57,9 @@ function Gusta(artistaId)
             success:
                 function(response)
                 {
-                    $("#gusta").html(+ 1);
+                    let cant = parseInt($("#gusta").html())+1;
+                    console.log(cant);
+                    $("#gusta").html(cant);
                 },
             error:
                 function(xhr, status)
@@ -80,7 +82,8 @@ function NoGusta(artistaId)
             success:
                 function(response)
                 {
-                    $("#nogusta").html(+ 1);
+                    let cant = parseInt($("#nogusta").html())+1;
+                    $("#nogusta").html(cant);
                 },
             error:
                 function(xhr, status)
