@@ -275,6 +275,14 @@ INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]
 INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]) VALUES (17, 2, 6, N'"Could be better."                                ')
 INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]) VALUES (18, 8, 6, N'"Disgusting."                                     ')
 INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]) VALUES (19, 1, 3, N'"Che, este tipo quien es?"                        ')
+INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]) VALUES (20, 1, 5, N'"Lovely"                        ')
+INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]) VALUES (21, 2, 5, N'"Lovely"                        ')
+INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]) VALUES (22, 3, 5, N'"Lovely"                        ')
+INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]) VALUES (23, 4, 5, N'"Lovely"                        ')
+INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]) VALUES (24, 6, 5, N'"Lovely"                        ')
+INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]) VALUES (25, 7, 5, N'"Not lovely. Not at all."                        ')
+INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]) VALUES (26, 9, 5, N'"Lovely"                        ')
+INSERT [dbo].[Comentario] ([comentarioId], [artistaId], [usuarioId], [contenido]) VALUES (27, 11, 5, N'"Lovely"                        ')
 SET IDENTITY_INSERT [dbo].[Comentario] OFF
 GO
 SET IDENTITY_INSERT [dbo].[Usuario] ON 
@@ -284,6 +292,7 @@ INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (2
 INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (3, N'JuliLav                                           ', N'nuncausocontrasena1', N'jlav@gmail.com')
 INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (4, N'tobigran                                          ', N'MLKOOMK', N'tgranovski@gmail.com')
 INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (5, N'eduardohose', N'12345', N'ehose@gmail.com')
+INSERT [dbo].[Usuario] ([usuarioId], [nombre], [contraseña], [gmail]) VALUES (6, N'EnglishMan', N'innit', N'emanhey@gmail.com')
 SET IDENTITY_INSERT [dbo].[Usuario] OFF
 GO
 /****** Object:  StoredProcedure [dbo].[AñadirComentario]    Script Date: 16/11/2023 08:18:54 ******/
