@@ -10,6 +10,7 @@
             success:
             function(response)
             {
+                console.log(response.nombre)
                 return response.nombre
             },
             error:
@@ -33,8 +34,8 @@ function SeguirArtista(artistaId, usuarioId)
             success:
                 function(response)
                 {
-                    if (response == 1){$("#boton").html("Dejar de Seguir");}
-                    else{$("#boton").html("Seguir");}
+                    if (response == 1){$("#seguir").html("Dejar de Seguir");}
+                    else{$("#seguir").html("Seguir");}
                 },
             error:
                 function(xhr, status)
@@ -57,9 +58,9 @@ function Gusta(artistaId)
             success:
                 function(response)
                 {
-                    let cant = parseInt($("#gusta").html())+1;
+                    let cant = parseInt($("#gusta_" + response).html())+1;
                     console.log(cant);
-                    $("#gusta").html(cant);
+                    $("#gusta_" + response).html(cant);
                 },
             error:
                 function(xhr, status)
@@ -82,8 +83,8 @@ function NoGusta(artistaId)
             success:
                 function(response)
                 {
-                    let cant = parseInt($("#nogusta").html())+1;
-                    $("#nogusta").html(cant);
+                    let cant = parseInt($("#nogusta_" + response).html())+1;
+                    $("#nogusta_" + response).html(cant);
                 },
             error:
                 function(xhr, status)
@@ -94,38 +95,42 @@ function NoGusta(artistaId)
     );
 }
 
-function ValidarComentario()
+function ValidarComentario(artistaId, usuarioId)
 {
-    let leng = document.getElementById("cont").length;
+    let contenido = document.getElementById("cont").value;
+    let leng = contenido.length;
     if(leng > 0)
     {
-        function AñadirComentario(artistaId, usuarioId, contenido)
-        {
-            $.ajax
-            (
-                {
-                    type: 'POST',
-                    dataType: 'JSON',
-                    url: '/Home/AñadirComentario',
-                    data: {artistaId: artistaId, usuarioId: usuarioId, contenido: contenido},
-                    success:
-                        function(response)
-                        {
-                            $("#name").html(Buscarnombre(response.usuarioId));
-                            $("#cont").html(response.contenido);
-                            $("#nuevo").style.display = "block";
-                        },
-                    error:
-                        function(xhr, status)
-                        {
-                            alert('Ocurrio un problema');
-                        }
-                }
-            );
-        }
+        AñadirComentario(artistaId, usuarioId, contenido);
     }
     else{alert('no se puede añadir un comentario vacio')}
 }
+
+function AñadirComentario(artistaId, usuarioId, contenido)
+{
+    $.ajax
+    (
+        {
+            type: 'POST',
+            dataType: 'JSON',
+            url: '/Home/AñadirComentario',
+            data: {artistaId: artistaId, usuarioId: usuarioId, contenido: contenido},
+            success:
+                function(response)
+                {
+                    $("#name").html(response.nombre + ": ");
+                    $("#contenido").html(" " + response.contenido);
+                    $("#nuevo").style.display = "block";
+                },
+            error:
+                function(xhr, status)
+                {
+                    alert('Ocurrio un problema');
+                }
+        }
+    );
+}
+
 
 function ValidarContraseña()
 {  

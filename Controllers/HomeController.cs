@@ -15,11 +15,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        ViewBag.mostrarNav = false;
         return View();
     }
 
     public IActionResult Login(string nombre, string contraseña)
     {
+        ViewBag.mostrarNav = false;
         if (BD.Login(nombre, contraseña) == null)
         {
             return View("Login");
@@ -33,7 +35,7 @@ public class HomeController : Controller
 
     public IActionResult Registrarse()
     {
-
+        ViewBag.mostrarNav = false;
         return View("Registro");
     }
 
@@ -55,6 +57,7 @@ public class HomeController : Controller
 
     public IActionResult DetallesArtista(Artista artista)
     {
+        ViewBag.user = BD.user;
         ViewBag.artista = artista;
         ViewBag.Canciones = BD.CargarCanciones(artista.artistaId);
         ViewBag.Comentarios = BD.CargarComentarios(artista.artistaId);

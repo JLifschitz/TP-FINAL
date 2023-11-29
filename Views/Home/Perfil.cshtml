@@ -8,10 +8,12 @@
         <link rel="Stylesheet" src="site.css">
     </head>
     <body>
-        <h1>Username:@BD.user.nombre</h1>
+        <h1>Username: @BD.user.nombre</h1>
+        <br>
+        <h1>Artistas seguidos:</h1>
         @foreach(Artista item in ViewBag.seguidos)
         {
-            <h1>item.Nombre</h1>
+            <h1>- @item.nombre</h1>
         }
     </body>
 </html>

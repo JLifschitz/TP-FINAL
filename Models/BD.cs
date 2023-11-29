@@ -23,7 +23,7 @@ public static class BD
         string sql = "Registrarse";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            db.Execute(sql, new{use = user.nombre, con = user.contraseña, mail = user.gmail}, commandType: CommandType.StoredProcedure);
+            db.Execute(sql, new{use = user.nombre, con = user.contraseña, mail = user.mail}, commandType: CommandType.StoredProcedure);
         }
     }
 
@@ -55,7 +55,7 @@ public static class BD
         string sql = "SeguirArtista";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            devolver = db.QueryFirstOrDefault(sql, new{art = artistaId, user = usuarioId}, commandType: CommandType.StoredProcedure);
+            devolver = db.QueryFirstOrDefault<int>(sql, new{art = artistaId, user = usuarioId}, commandType: CommandType.StoredProcedure);
         }
         return devolver;
     }
@@ -117,7 +117,7 @@ public static class BD
         string sql = "AñadirComentario";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            db.QueryFirstOrDefault(sql, new{art = artistaId, userId=usuarioId, cont=contenido}, commandType: CommandType.StoredProcedure);
+            devolver = db.QueryFirstOrDefault<Comentario>(sql, new{art = artistaId, userId=usuarioId, cont=contenido}, commandType: CommandType.StoredProcedure);
         }
         return devolver;
     }

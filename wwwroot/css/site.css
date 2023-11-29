@@ -21,7 +21,13 @@ body
   background-image: url("../img/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0%;
+  padding: 0;
+  margin: 0;
+}
+
+div
+{
+  margin: 0%;
 }
 
 nav
@@ -33,6 +39,7 @@ nav
   flex-flow: row nowrap;
   width: 100%;
   margin: 0;
+  margin-bottom: 5rem;
   padding: 0;
 }
 
@@ -126,20 +133,30 @@ hi
 
 .datos
 {
-  margin-left:50rem
+  margin-left:10rem;
+  width:56rem;
 }
 
 .canciones
 {
-  margin-left:50rem
+  margin-left:10rem;
+}
+
+.canciones
+{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
 }
 
 .DetallesArtista
 {
+  text-align: start;
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
   width: 100%;
+  border-bottom: 5px white solid;
 }
 
 .detalles
@@ -260,4 +277,16 @@ svg:hover {
   background-color: white;
 }
 
+.nuevo
+{
+  display:none;
+  margin: 0;
+  padding: 0;
+}
 
+.comNuevo
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

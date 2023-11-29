@@ -6,4 +6,5 @@ public class Comentario
     public int artistaId {get;set;}
     public int usuarioId {get;set;}
     public string contenido {get;set;}
+    public string nombre {get;set;}
 }
