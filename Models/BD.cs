@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Dapper;
 public static class BD
 {
-    private static string _connectionString = @"Server=localhost; DataBase=TPFINAL; Trusted_Connection=True;";
+    private static string _connectionString = @"Server=.; DataBase=TPFINAL; Trusted_Connection=True;";
     public static Usuario user;
     public static Usuario Login(string nombre, string contraseña)
     {
