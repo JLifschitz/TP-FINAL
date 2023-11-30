@@ -35,8 +35,8 @@ function SeguirArtista(artistaId, usuarioId)
                 function(response)
                 {
                     console.log(response);
-                    if (response == 0){$("#seguir").html("Dejar de Seguir");}
-                    if (response == 1){$("#seguir").html("Seguir");}
+                    if (response == 1){$("#seguir").html("Dejar de Seguir");}
+                    if (response == 0){$("#seguir").html("Seguir");}
                     else{}
                 },
             error:

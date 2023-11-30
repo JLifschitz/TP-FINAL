@@ -24,8 +24,8 @@
                         </div>
                     }
                 </div>
+                <button id="seguir" onclick="SeguirArtista(@ViewBag.artista.artistaId, @ViewBag.user.usuarioId)">Seguir</button>
             </div>
-            <button id="seguir" onclick="SeguirArtista(@ViewBag.artista.artistaId, @ViewBag.user.usuarioId)">Seguir</button>
         </div>
         <input class="comentario" placeholder="Añadir comentario" name="contenido" id="cont">
         <button onclick="ValidarComentario(@ViewBag.artista.artistaId, @ViewBag.user.usuarioId)">Subir</button>
