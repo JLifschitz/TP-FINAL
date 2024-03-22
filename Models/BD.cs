@@ -23,7 +23,7 @@ public static class BD
         string sql = "Registrarse";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            db.Execute(sql, new{use = user.nombre, con = user.contraseña, mail = user.mail}, commandType: CommandType.StoredProcedure);
+            db.Execute(sql, new{use = user.nombre, con = user.contraseña, mail = user.mail, admin = user.admin}, commandType: CommandType.StoredProcedure);
         }
     }
 

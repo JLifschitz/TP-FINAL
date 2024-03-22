@@ -10,15 +10,15 @@
     <body>
         <h1>¡Bienvenido, Registrate!</h1>
         <form class="center" method="post" action='@Url.Action("Registro")'>
-            <label for="nombre">Nombre de Usuario</label>
-            <input type="text" name="nombre" placeholder="Usuario" required></input>
+            <input type="text" name="nombre" placeholder="Usuario" required>
 
-            <label for="contraseña">Contraseña</label>
-            <input type="password" value="" name="contraseña" placeholder="Contraseña" id="password" onkeyup="ValidatePassword()" required></input>
+            <input type="password" value="" name="contraseña" placeholder="Contraseña" id="password" onkeyup="ValidatePassword()" required>
             <span id="PasswordAlert" class="alert"></span>
 
-            <label for="mail">Mail</label>
-            <input type="mail" value="" name="mail" placeholder="Mail" required></input>
+            <input type="mail" value="" name="mail" placeholder="Mail" required>
+
+            <label for="admin" style="color:white;">Admin: </label>
+            <input type="checkbox" checked="checked" name="admin" placeholder="admin">
             
             <input type="submit" >
         </form>

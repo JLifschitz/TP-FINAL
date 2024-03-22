@@ -6,4 +6,5 @@ public class Usuario
     public string nombre {get;set;}
     public string contraseña {get;set;}
     public string mail {get;set;}
+    public bool admin {get;set;}
 }
