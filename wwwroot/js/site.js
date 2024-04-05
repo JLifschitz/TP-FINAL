@@ -161,3 +161,4 @@ function ValidarContraseña()
     }
     if(spec && leng && upp){PasswordAlert.textContent = "";}
 }
+

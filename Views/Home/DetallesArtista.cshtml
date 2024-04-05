@@ -9,8 +9,11 @@
     </head>
     <body>
         <div class="DetallesArtista">
-            <img style="height: 25rem; width: 25rem; margin-left:10rem;" src="/img/Artistas/@ViewBag.Artista.foto">
+    
+            <img style="height: 25rem; width: 25rem; margin-left:10rem;" src="/img/Artistas/@ViewBag.Artista.foto">   
+
             <button id="seguir" onclick="SeguirArtista(@ViewBag.artista.artistaId, @ViewBag.user.usuarioId)">Seguir</button>
+          
             <div class="detalles">
                 <div class="datos">
                     <h1>Nombre: @ViewBag.artista.nombre</h1>
@@ -25,7 +28,6 @@
                         </div>
                     }
                 </div>
-                <button id="seguir" onclick="SeguirArtista(@ViewBag.artista.artistaId, @ViewBag.user.usuarioId)">Seguir</button>
             </div>
 <<<<<<< HEAD
             
