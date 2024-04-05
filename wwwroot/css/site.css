@@ -41,18 +41,18 @@ nav
   margin: 0;
   margin-bottom: 5rem;
   padding: 0;
+  background-color: #4e1f44;
 }
 
 nav ul
 {
   list-style-type: none;
   display: flex;
-  justify-content: flex-start;
+  justify-content: right;
   margin: 0;
   padding: 0;
   width: 100%;
   overflow: hidden;
-  background-color: #4e1f44;
 }
 
 
@@ -157,6 +157,11 @@ hi
   align-items: flex-start;
   width: 100%;
   border-bottom: 5px white solid;
+}
+
+.FotoSeguir
+{
+  margin-right: 20rem;
 }
 
 .detalles
@@ -290,3 +295,4 @@ svg:hover {
   flex-flow: row wrap;
   justify-content: center;
 }
+
