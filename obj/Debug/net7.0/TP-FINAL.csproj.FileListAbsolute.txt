@@ -31,7 +31,6 @@ Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\staticwebassets.development.json
 Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\scopedcss\bundle\TP-FINAL.styles.css
 Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\scopedcss\projectbundle\TP-FINAL.bundle.scp.css
-Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\TP-FINAL.csproj.CopyComplete
 Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\TP-FINAL.dll
 Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\refint\TP-FINAL.dll
 Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\TP-FINAL.pdb
@@ -76,3 +75,5 @@ Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\refint\TP-FINAL.dll
 Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\TP-FINAL.pdb
 Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\TP-FINAL.genruntimeconfig.cache
 Z:\Programacion C#\4° año\TP-FINAL\obj\Debug\net7.0\ref\TP-FINAL.dll
+Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\TP-FINAL.sourcelink.json
+Z:\Programacion 4to\TP-FINAL\obj\Debug\net7.0\TP-FINAL.csproj.Up2Date
