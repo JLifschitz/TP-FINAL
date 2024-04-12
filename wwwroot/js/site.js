@@ -48,7 +48,7 @@ function SeguirArtista(artistaId, usuarioId)
     );
 }
 
-function Gusta(artistaId)
+function Gusta(artistaId, usuarioId)
 {
     $.ajax
     (
@@ -56,13 +56,17 @@ function Gusta(artistaId)
             type: 'POST',
             dataType: 'JSON',
             url: '/Home/Gusta',
-            data: {artistaId: artistaId},
+            data: {artistaId: artistaId, usuarioId: usuarioId},
             success:
                 function(response)
                 {
-                    let cant = parseInt($("#gusta_" + response).html())+1;
-                    console.log(cant);
-                    $("#gusta_" + response).html(cant);
+                    if (response == 1)
+                    {
+                        let cant = parseInt($("#gusta_" + artistaId).html())+1;
+                        console.log(cant);
+                        $("#gusta_" + artistaId).html(cant);
+                    }
+                    if (response == 0){return false}
                 },
             error:
                 function(xhr, status)
@@ -73,7 +77,7 @@ function Gusta(artistaId)
     );
 }
 
-function NoGusta(artistaId)
+function NoGusta(artistaId, usuarioId)
 {
     $.ajax
     (
@@ -81,12 +85,16 @@ function NoGusta(artistaId)
             type: 'POST',
             dataType: 'JSON',
             url: '/Home/NoGusta',
-            data: {artistaId: artistaId},
+            data: {artistaId: artistaId, usuarioId: usuarioId},
             success:
                 function(response)
                 {
-                    let cant = parseInt($("#nogusta_" + response).html())+1;
-                    $("#nogusta_" + response).html(cant);
+                    if (response == 1)
+                    {
+                        let cant = parseInt($("#nogusta_" + artistaId).html())+1;
+                        $("#nogusta_" + artistaId).html(cant);
+                    }
+                    if (response == 0){return false}
                 },
             error:
                 function(xhr, status)
