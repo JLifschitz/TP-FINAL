@@ -71,22 +71,15 @@ public static class BD
         return devolver;
     }
 
-    public static void Gusta(int artistaId)
+    public static int Gusta(int artistaId, int userId, bool gusta)
     {
+        int devolver; 
         string sql = "Gusta";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            db.Execute(sql, new{art = artistaId}, commandType: CommandType.StoredProcedure);
+           devolver = db.Execute(sql, new{art = artistaId, user = userId, gusta = gusta}, commandType: CommandType.StoredProcedure);
         }
-    }
-
-    public static void NoGusta(int artistaId)
-    {
-        string sql = "NoGusta";
-        using(SqlConnection db = new SqlConnection(_connectionString))
-        {
-            db.Execute(sql, new{art = artistaId},commandType: CommandType.StoredProcedure);
-        }
+        return devolver;
     }
 
     public static List<Cancion> CargarCanciones(int artistaId)
