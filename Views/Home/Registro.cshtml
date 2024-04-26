@@ -1,26 +1,17 @@
 @{
     ViewData["Title"] = "Registro";
 }
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Index</title>
-        <link rel="Stylesheet" src="site.css">
-    </head>
-    <body>
-        <h1>¡Bienvenido, Registrate!</h1>
-        <form class="center" method="post" action='@Url.Action("Registro")'>
-            <input type="text" name="nombre" placeholder="Usuario" required>
+<h1>¡Bienvenido, Registrate!</h1>
+<form class="center" method="post" action='@Url.Action("Registro")'>
+    <input type="text" name="nombre" placeholder="Usuario" required>
 
-            <input type="password" value="" name="contraseña" placeholder="Contraseña" id="password" onkeyup="ValidatePassword()" required>
-            <span id="PasswordAlert" class="alert"></span>
+    <input type="password" value="" name="contraseña" placeholder="Contraseña" id="password" onkeyup="ValidatePassword()" required>
+    <span id="PasswordAlert" class="alert"></span>
 
-            <input type="mail" value="" name="mail" placeholder="Mail" required>
+    <input type="mail" value="" name="mail" placeholder="Mail" required>
 
-            <label for="admin" style="color:white;">Admin: </label>
-            <input type="checkbox" checked="checked" name="admin" placeholder="admin">
-            
-            <input type="submit" >
-        </form>
-    </body>
-</html>
+    <label for="admin" style="color:white;">Admin: </label>
+    <input type="checkbox" checked="checked" name="admin" placeholder="admin">
+    
+    <input type="submit" >
+</form>
