@@ -48,23 +48,26 @@ function SeguirArtista(artistaId, usuarioId)
     );
 }
 
-function Gusta(artistaId, usuarioId)
+function Gusta(artId, usrId)
 {
+    let datos = {artistaId: artId, usuarioId: usrId};
+    console.log(datos);
     $.ajax
     (
         {
             type: 'POST',
             dataType: 'JSON',
             url: '/Home/Gusta',
-            data: {artistaId: artistaId, usuarioId: usuarioId},
+            data: datos,
             success:
                 function(response)
                 {
+                    console.log(response);
                     if (response == 1)
                     {
-                        let cant = parseInt($("#gusta_" + artistaId).html())+1;
-                        console.log(cant);
-                        $("#gusta_" + artistaId).html(cant);
+                        let cant = parseInt($("#gusta_" + artId).html())+1;
+                        console.log(response);
+                        $("#gusta_" + artId).html(cant);
                     }
                     if (response == 0){return false}
                 },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "03lmvgSZap1GUfGpF1QDGFcnxH9VM1q39+01rpD0qR4=",
+  "Hash": "wao0nNPg0KJItiE8i66eDB+srd3kX2nLzVUrermgdkI=",
   "Source": "TP-FINAL",
   "BasePath": "_content/TP-FINAL",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TP-FINAL\\wwwroot",
       "Source": "TP-FINAL",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TP-FINAL.styles.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TP-FINAL.styles.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Computed",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "TP-FINAL.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Z:\\Programacion C#\\4° año\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TP-FINAL.styles.css"
+      "OriginalItemSpec": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TP-FINAL.styles.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TP-FINAL.bundle.scp.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TP-FINAL.bundle.scp.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Computed",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "TP-FINAL.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Z:\\Programacion C#\\4° año\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TP-FINAL.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TP-FINAL.bundle.scp.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\css\\site.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\DB\\TPFINAL.sql",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\DB\\TPFINAL.sql",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "DB/TPFINAL.sql",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\DB\\TPFINAL.sql"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\favicon.ico",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\berduras.jpeg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\berduras.jpeg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/berduras.jpeg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\berduras.jpeg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\billyjoel.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\billyjoel.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/billyjoel.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\billyjoel.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\charlygarcia.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\charlygarcia.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/charlygarcia.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\charlygarcia.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\fitopaez.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\fitopaez.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/fitopaez.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\fitopaez.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\gramatik.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\gramatik.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/gramatik.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\gramatik.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\imaginedragons.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\imaginedragons.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/imaginedragons.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\imaginedragons.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\lopibitos.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\lopibitos.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/lopibitos.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\lopibitos.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\loshelicopteros.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\loshelicopteros.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/loshelicopteros.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\loshelicopteros.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\marcusmiller.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\marcusmiller.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/marcusmiller.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\marcusmiller.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\michaeljackson.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\michaeljackson.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/michaeljackson.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\michaeljackson.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\notevagustar.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\notevagustar.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/notevagustar.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\notevagustar.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\queen.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\queen.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/queen.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\queen.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\slystone.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\slystone.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/slystone.jpg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\slystone.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\theinternet.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\theinternet.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/theinternet.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\theinternet.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\thekinks.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\thekinks.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/thekinks.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\thekinks.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\Thumbs.db",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\Thumbs.db",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/Thumbs.db",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\Thumbs.db"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\tini.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\tini.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/tini.jpg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\tini.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\vetstone.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\vetstone.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/vetstone.jpg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\vetstone.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\virus.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\virus.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/virus.jpg",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\virus.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Artistas\\wos.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Artistas\\wos.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Artistas/wos.jpg",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Artistas\\wos.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\fondo.jpg",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\fondo.jpg",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/fondo.jpg",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fondo.jpg"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\logo.png",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\logo.png",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\logos\\logo para index.JPG",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\logos\\logo para index.JPG",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/logos/logo para index.JPG",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\logo para index.JPG"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\logos\\logo premium.JPG",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\logos\\logo premium.JPG",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/logos/logo premium.JPG",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\logo premium.JPG"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\logos\\Logo solo no premium.JPG",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\logos\\Logo solo no premium.JPG",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/logos/Logo solo no premium.JPG",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\Logo solo no premium.JPG"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\logos\\Logo solo.JPG",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\logos\\Logo solo.JPG",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/logos/Logo solo.JPG",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\Logo solo.JPG"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\logos\\Logo.JPG",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\logos\\Logo.JPG",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/logos/Logo.JPG",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\Logo.JPG"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\logos\\Thumbs.db",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\logos\\Thumbs.db",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/logos/Thumbs.db",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\Thumbs.db"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\img\\Thumbs.db",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\img\\Thumbs.db",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "img/Thumbs.db",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Thumbs.db"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\js\\site.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TP-FINAL",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion C#\\4° año\\TP-FINAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47805160\\Downloads\\TP-FINAL\\wwwroot\\",
       "BasePath": "_content/TP-FINAL",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

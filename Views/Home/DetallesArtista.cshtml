@@ -1,52 +1,40 @@
 @{
     ViewData["Title"] = "Detalle Artista";
 }
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>DetalleArtistas</title>
-        <link rel="Stylesheet" src="site.css">
-    </head>
-    <body>
-        <div class="DetallesArtista">
-    
-            <img style="height: 25rem; width: 25rem; margin-left:10rem;" src="/img/Artistas/@ViewBag.Artista.foto">   
+<div class="DetallesArtista">
 
-            <button id="seguir" onclick="SeguirArtista(@ViewBag.artista.artistaId, @ViewBag.user.usuarioId)">Seguir</button>
-          
-            <div class="detalles">
-                <div class="datos">
-                    <h1>Nombre: @ViewBag.artista.nombre</h1>
-                    <h1>Descripcion: @ViewBag.artista.descripcion</h1> 
-                </div>
-                <div class="canciones">
-                <h1>Top canciones:</h1>
-                    @foreach (Cancion item in ViewBag.Canciones)
-                    {
-                        <div class="cancion">
-                            <h1>@item.nombre   @item.fechaestreno.ToString("yyyy-MM-dd")</h1>
-                        </div>
-                    }
-                </div>
-            </div>
-<<<<<<< HEAD
-            
-=======
->>>>>>> f937001895e2791c847b05cda2e7704f906f8cb6
+    <img style="height: 25rem; width: 25rem; margin-left:10rem;" src="/img/Artistas/@ViewBag.Artista.foto">   
+
+    <button id="seguir" onclick="SeguirArtista(@ViewBag.artista.artistaId, @ViewBag.user.usuarioId)">Seguir</button>
+    
+    <div class="detalles">
+        <div class="datos">
+            <h1>Nombre: @ViewBag.artista.nombre</h1>
+            <h1>Descripcion: @ViewBag.artista.descripcion</h1> 
         </div>
-        <input class="comentario" placeholder="Añadir comentario" name="contenido" id="cont">
-        <button onclick="ValidarComentario(@ViewBag.artista.artistaId, @ViewBag.user.usuarioId)">Subir</button>
-        <br>  
-        <h1>Comentarios:</h1>
-        <div class="comentarios">
-            <div class="comNuevo" id="nuevo">
-                <h1 id="name"></h1>
-                <h1 id="contenido"></h1>
-            </div>
-            @foreach (Comentario item in ViewBag.Comentarios)
+        <div class="canciones">
+        <h1>Top canciones:</h1>
+            @foreach (Cancion item in ViewBag.Canciones)
             {
-                <h1>@item.nombre :  @item.contenido</h1>
+                <div class="cancion">
+                    <h1>@item.nombre   @item.fechaestreno.ToString("yyyy-MM-dd")</h1>
+                </div>
             }
         </div>
-    </body>
-</html>
+    </div>
+    
+</div>
+<input class="comentario" placeholder="Añadir comentario" name="contenido" id="cont">
+<button onclick="ValidarComentario(@ViewBag.artista.artistaId, @ViewBag.user.usuarioId)">Subir</button>
+<br>  
+<h1>Comentarios:</h1>
+<div class="comentarios">
+    <div class="comNuevo" id="nuevo">
+        <h1 id="name"></h1>
+        <h1 id="contenido"></h1>
+    </div>
+    @foreach (Comentario item in ViewBag.Comentarios)
+    {
+        <h1>@item.nombre :  @item.contenido</h1>
+    }
+</div>
