@@ -50,8 +50,6 @@ function SeguirArtista(artistaId, usuarioId)
 
 function Gusta(artId, usrId)
 {
-    let datos = {artistaId: artId, usuarioId: usrId};
-    console.log(datos);
     $.ajax
     (
         {
@@ -92,6 +90,7 @@ function NoGusta(artistaId, usuarioId)
             success:
                 function(response)
                 {
+                    console.log(response);
                     if (response == 1)
                     {
                         let cant = parseInt($("#nogusta_" + artistaId).html())+1;
