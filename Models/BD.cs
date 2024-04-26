@@ -114,4 +114,20 @@ public static class BD
         }
         return devolver;
     }
+    public static void  AñadirArtista(string nombre, string descripcion, string genero, string foto)
+    {
+        string sql = "AñadirArtista";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            db.Execute(sql, new{nom=nombre, descrip=descripcion, gen=genero, foto=foto}, commandType: CommandType.StoredProcedure);
+        }
+    }
+    public static void  AñadirCancion(int artistaId, string nombre, DateTime fecha)
+    {
+        string sql = "AñadirArtista";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            db.Execute(sql, new{id=artistaId, nom=nombre, fecha=fecha}, commandType: CommandType.StoredProcedure);
+        }
+    }
 }

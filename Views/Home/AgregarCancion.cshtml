@@ -1,16 +1,15 @@
 @{
     ViewData["Title"] = "Agregar Cancion";
 }
-<form id="agregarCancionForm" action="procesar_Cancion" method="post">
+<form id="agregarCancionForm" action='@Url.Action("AñadirCancion")' method="post">
+    <label for="artista">ID del artista:</label><br>
+    <input type="text" id="artista" name="artista"><br>
 
-        <label for="artista">ID del artista:</label><br>
-        <input type="text" id="artista" name="artista"><br>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br>
 
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre"><br>
+    <label for="estreno">Fecha de estreno::</label><br>
+    <input type="text" id="estreno" name="estreno"><br>
 
-        <label for="estreno">Fecha de estreno::</label><br>
-        <input type="text" id="estreno" name="estreno"><br>
-
-        <input type="submit" value="Agregar Cancion">
-    </form>
+    <input type="submit" value="Agregar Cancion">
+</form>

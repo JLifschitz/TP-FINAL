@@ -12,6 +12,10 @@
             <h1>Nombre: @ViewBag.artista.nombre</h1>
             <h1>Descripcion: @ViewBag.artista.descripcion</h1> 
         </div>
+        @if(ViewBag.admin == true)
+        {
+            <a href='@Url.Action("AgrgarCancion", @ViewBag.artista)'><button>Agregar Cancion</button></a>
+        }
         <div class="canciones">
         <h1>Top canciones:</h1>
             @foreach (Cancion item in ViewBag.Canciones)

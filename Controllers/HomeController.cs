@@ -57,10 +57,26 @@ public class HomeController : Controller
         return View();
     }
 
-    /*public Comentario AñadirArtista(string nombre, string descripcion, string genero, string foto)
+    public IActionResult AgregarArtista()
     {
-        return BD.AñadirArtista(nombre, descripcion, genero, foto);
-    }*/
+        return View();
+    }
+    public IActionResult AñadirArtista(string nombre, string descripcion, string genero, string foto)
+    {
+        BD.AñadirArtista(nombre, descripcion, genero, foto);
+        return RedirectToAction("VerArtistas", new {buscar = "", admin = BD.user.admin});
+    }
+
+    public IActionResult AgregarCancion(Artista art)
+    {
+        ViewBag.artista = art;
+        return View();
+    }
+    public IActionResult AñadirCancion(int artistaId, string nombre, DateTime fecha, Artista art)
+    {
+        BD.AñadirCancion(artistaId, nombre, fecha);
+        return RedirectToAction("DetallesArtista", new {artista = art});
+    }
 
     public IActionResult DetallesArtista(Artista artista)
     {
