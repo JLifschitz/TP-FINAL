@@ -13,11 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP-FINAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d31d8a1ad2af2ce42fee73f53010fb2a2c6686b")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84736677fce4c04e1cb6daec9d21a9f7a2643e5a")]
->>>>>>> 2de8e5a3d987a6fa610dfaa1eeb6e11aad34c252
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e6ecceb9d5a3be877573a53286bd3d8a1e864d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP-FINAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP-FINAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

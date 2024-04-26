@@ -11,6 +11,7 @@
 @if(ViewBag.admin == true)
 {
   <a href='@Url.Action("AgregarArtista")'><button>Agregar Artista</button></a>
+  <a href='@Url.Action("AgrgarCancion")'><button>Agregar Cancion</button></a>
 }
 <div class="columna">
   @foreach (Artista item in ViewBag.Artistas)
