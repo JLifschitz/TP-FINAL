@@ -29,7 +29,7 @@ public class HomeController : Controller
         else
         {
             BD.user = BD.Login(nombre, contraseña);
-            return RedirectToAction("VerArtistas", new {buscar=""});
+            return RedirectToAction("VerArtistas", "", BD.user.admin);
         }
     }
 
@@ -49,11 +49,18 @@ public class HomeController : Controller
         else{return View("Registro",user);}
     }
 
-    public IActionResult VerArtistas(string buscar)
+    public IActionResult VerArtistas(string buscar, bool admin)
     {
+        ViewBag.admin = admin;
+        ViewBag.user = BD.user;
         ViewBag.Artistas = BD.CargarArtistas(buscar);
         return View();
     }
+
+    /*public Comentario AñadirArtista(string nombre, string descripcion, string genero, string foto)
+    {
+        return BD.AñadirArtista(nombre, descripcion, genero, foto);
+    }*/
 
     public IActionResult DetallesArtista(Artista artista)
     {
