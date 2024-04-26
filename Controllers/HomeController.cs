@@ -29,7 +29,7 @@ public class HomeController : Controller
         else
         {
             BD.user = BD.Login(nombre, contraseña);
-            return RedirectToAction("VerArtistas", "", BD.user.admin);
+            return RedirectToAction("VerArtistas", new {buscar = "", admin = BD.user.admin});
         }
     }
 
