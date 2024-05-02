@@ -38,6 +38,17 @@ public static class BD
         return devolver;
     }
 
+    public static Artista BuscarArtista(int artistaId)
+    {
+        Artista devolver = null;
+        string sql = "SELECT * FROM Artista WHERE artistaId = @id";
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            devolver = db.QueryFirstOrDefault<Artista>(sql, new{id = artistaId});
+        }
+        return devolver;
+    }
+
     public static List<Artista> CargarArtistas(string buscar)
     {
         List<Artista> devolver = null;

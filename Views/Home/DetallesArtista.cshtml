@@ -14,7 +14,7 @@
         </div>
         @if(ViewBag.admin == true)
         {
-            <a href='@Url.Action("AgregarCancion", new {art = @ViewBag.artista})'><button>Agregar Cancion</button></a>
+            <a href='@Url.Action("AgregarCancion", new {artistaId = ViewBag.artista.artistaId})'><button>Agregar Cancion</button></a>
         }
         <div class="canciones">
         <h1>Top canciones:</h1>

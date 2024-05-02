@@ -67,24 +67,24 @@ public class HomeController : Controller
         return RedirectToAction("VerArtistas", new {buscar = "", admin = BD.user.admin});
     }
 
-    public IActionResult AgregarCancion(Artista art)
+    public IActionResult AgregarCancion(int artistaId)
     {
-        ViewBag.artista = art;
+        ViewBag.artista = BD.BuscarArtista(artistaId);
         return View();
     }
-    public IActionResult AñadirCancion(string nombre, DateTime fecha, Artista artista)
+    public IActionResult AñadirCancion(string nombre, DateTime fecha, int artistaId)
     {
-        BD.AñadirCancion(artista.artistaId, nombre, fecha);
-        return RedirectToAction("DetallesArtista", new {artista = artista});
+        BD.AñadirCancion(artistaId, nombre, fecha);
+        return RedirectToAction("DetallesArtista", new {artistaId = artistaId});
     }
 
-    public IActionResult DetallesArtista(Artista artista)
+    public IActionResult DetallesArtista(int artistaId)
     {
         ViewBag.user = BD.user;
         ViewBag.admin = BD.user.admin;
-        ViewBag.artista = artista;
-        ViewBag.Canciones = BD.CargarCanciones(artista.artistaId);
-        ViewBag.Comentarios = BD.CargarComentarios(artista.artistaId);
+        ViewBag.artista = BD.BuscarArtista(artistaId);
+        ViewBag.Canciones = BD.CargarCanciones(artistaId);
+        ViewBag.Comentarios = BD.CargarComentarios(artistaId);
         return View();
     }
 

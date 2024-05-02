@@ -2,7 +2,7 @@
     ViewData["Title"] = "Agregar Cancion";
 }
 <form id="agregarCancionForm" action='@Url.Action("AñadirCancion")' method="post">
-    <input type="hidden" id="artista" name="artista" value= @ViewBag.artista>
+    <input type="hidden" id="artista" name="artistaId" value="@ViewBag.artista.artistaId" >
 
     <label for="nombre">Nombre:</label><br>
     <input type="text" id="nombre" name="nombre"><br>
@@ -10,5 +10,5 @@
     <label for="fecha">Fecha de estreno:</label><br>
     <input type="datetime" id="fecha" name="fecha"><br>
 
-    <input type="submit" value="Agregar Cancion">
+    <input type="submit" value="añadirCancion">
 </form>
