@@ -72,15 +72,16 @@ public class HomeController : Controller
         ViewBag.artista = art;
         return View();
     }
-    public IActionResult AñadirCancion(int artistaId, string nombre, DateTime fecha, Artista art)
+    public IActionResult AñadirCancion(string nombre, DateTime fecha, Artista artista)
     {
-        BD.AñadirCancion(artistaId, nombre, fecha);
-        return RedirectToAction("DetallesArtista", new {artista = art});
+        BD.AñadirCancion(artista.artistaId, nombre, fecha);
+        return RedirectToAction("DetallesArtista", new {artista = artista});
     }
 
     public IActionResult DetallesArtista(Artista artista)
     {
         ViewBag.user = BD.user;
+        ViewBag.admin = BD.user.admin;
         ViewBag.artista = artista;
         ViewBag.Canciones = BD.CargarCanciones(artista.artistaId);
         ViewBag.Comentarios = BD.CargarComentarios(artista.artistaId);
@@ -99,7 +100,7 @@ public class HomeController : Controller
 
     public bool NoGusta(int artistaId, int usuarioId)
     {
-        return (BD.Gusta(artistaId, usuarioId, false) == 1);
+        return (BD.Gusta(artistaId, usuarioId, false) == 0);
     }
 
     public Comentario AñadirComentario(int artistaId, int usuarioId, string contenido)
