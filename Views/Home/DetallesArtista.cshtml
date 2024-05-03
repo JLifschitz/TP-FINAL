@@ -3,8 +3,8 @@
 }
 <div class="DetallesArtista">
 
-    <img style="height: 25rem; width: 25rem; margin-left:10rem;" src="/img/Artistas/@ViewBag.Artista.foto">   
-
+    <img style="height: 25rem; width: 25rem; margin-left:10rem;" src="@ViewBag.Artista.foto">
+    <br>
     <button id="seguir" onclick="SeguirArtista(@ViewBag.artista.artistaId, @ViewBag.user.usuarioId)">Seguir</button>
     
     <div class="detalles">
@@ -14,7 +14,7 @@
         </div>
         @if(ViewBag.admin == true)
         {
-            <a href='@Url.Action("AgregarCancion", new {artistaId = ViewBag.artista.artistaId})'><button>Agregar Cancion</button></a>
+            <a class="agregar" href='@Url.Action("AgregarCancion", new {artistaId = ViewBag.artista.artistaId})'><button>Agregar Cancion</button></a>
         }
         <div class="canciones">
         <h1>Top canciones:</h1>

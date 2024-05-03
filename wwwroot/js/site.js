@@ -91,12 +91,12 @@ function NoGusta(artistaId, usuarioId)
                 function(response)
                 {
                     console.log(response);
-                    if (response == 1)
+                    if (response == 0)
                     {
                         let cant = parseInt($("#nogusta_" + artistaId).html())+1;
                         $("#nogusta_" + artistaId).html(cant);
                     }
-                    if (response == 0){return false}
+                    if (response == 1){return false}
                 },
             error:
                 function(xhr, status)

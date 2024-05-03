@@ -93,14 +93,14 @@ public class HomeController : Controller
         return BD.SeguirArtista(artistaId, usuarioId);
     }
 
-    public bool Gusta(int artistaId, int usuarioId)
+    public int Gusta(int artistaId, int usuarioId)
     {
-        return (BD.Gusta(artistaId, usuarioId, true) == 1);
+        return (BD.Gusta(artistaId, usuarioId, true));
     }
 
-    public bool NoGusta(int artistaId, int usuarioId)
+    public int NoGusta(int artistaId, int usuarioId)
     {
-        return (BD.Gusta(artistaId, usuarioId, false) == 0);
+        return (BD.Gusta(artistaId, usuarioId, false));
     }
 
     public Comentario AñadirComentario(int artistaId, int usuarioId, string contenido)

@@ -4,11 +4,11 @@
 <form id="agregarCancionForm" action='@Url.Action("AñadirCancion")' method="post">
     <input type="hidden" id="artista" name="artistaId" value="@ViewBag.artista.artistaId" >
 
-    <label for="nombre">Nombre:</label><br>
-    <input type="text" id="nombre" name="nombre"><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
 
-    <label for="fecha">Fecha de estreno:</label><br>
-    <input type="datetime" id="fecha" name="fecha"><br>
+    <label for="fecha" style="color:white;">Fecha de publicacion: <br> 
+    <input type="date" id="fecha" name="fecha" placeholder="Fecha">
+    <br>
 
     <input type="submit" value="añadirCancion">
 </form>

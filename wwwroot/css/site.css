@@ -164,6 +164,13 @@ hi
   margin-right: 20rem;
 }
 
+.agregar
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 .detalles
 {
   display: flex;
