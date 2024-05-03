@@ -85,10 +85,11 @@ public static class BD
     public static int Gusta(int artistaId, int userId, bool gusta)
     {
         int devolver = 0;
+        
         string sql = "Gusta";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-           devolver = db.Execute(sql, new{art = artistaId, user = userId, like = gusta}, commandType: CommandType.StoredProcedure);
+           devolver = db.Query<int>(sql, new{art = artistaId, user = userId, like = gusta}, commandType: CommandType.StoredProcedure);
         }
         return devolver;
     }
