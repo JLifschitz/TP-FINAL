@@ -61,13 +61,13 @@ function Gusta(artId, usrId)
                 function(response)
                 {
                     console.log(response);
-                    if (response == 1)
+                    if (response == true)
                     {
                         let cant = parseInt($("#gusta_" + artId).html())+1;
                         console.log(response);
                         $("#gusta_" + artId).html(cant);
                     }
-                    if (response == 0){return false}
+                    if (response == false){return false}
                 },
             error:
                 function(xhr, status)
@@ -91,12 +91,12 @@ function NoGusta(artistaId, usuarioId)
                 function(response)
                 {
                     console.log(response);
-                    if (response == 0)
+                    if (response == false)
                     {
                         let cant = parseInt($("#nogusta_" + artistaId).html())+1;
                         $("#nogusta_" + artistaId).html(cant);
                     }
-                    if (response == 1){return false}
+                    if (response == true){return false}
                 },
             error:
                 function(xhr, status)

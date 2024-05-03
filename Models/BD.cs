@@ -82,16 +82,16 @@ public static class BD
         return devolver;
     }
 
-    public static int Gusta(int artistaId, int userId, bool gusta)
+    public static bool Gusta(int artistaId, int userId, bool gusta)
     {
-        int devolver = 0;
+        LikexUsuario devolver;
         
         string sql = "Gusta";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-           devolver = db.Query<int>(sql, new{art = artistaId, user = userId, like = gusta}, commandType: CommandType.StoredProcedure);
+           devolver = db.QueryFirstOrDefault<LikexUsuario>(sql, new{art = artistaId, user = userId, like = gusta}, commandType: CommandType.StoredProcedure);
         }
-        return devolver;
+        return devolver.gusta;
     }
 
     public static List<Cancion> CargarCanciones(int artistaId)
